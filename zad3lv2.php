@@ -42,7 +42,7 @@ function display_profile($profile) {
     echo "Prezime: " . $profile['prezime'] . "<br>";
     echo "Email: " . $profile['email'] . "\n<br>";
     echo "Životopis: " . $profile['zivotopis'] . "<br>";
-    echo "Slika: " . $profile['slika'] . "<br>";
+    echo "Slika: <img src='" . $profile['slika'] . "' alt='Slika osobe'>\n<br>";
     echo "\n<br>";
 }
 
